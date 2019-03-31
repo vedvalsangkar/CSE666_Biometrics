@@ -11,7 +11,6 @@
 #
 # For Dropout:
 # https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network
-#
 ##
 
 import torch

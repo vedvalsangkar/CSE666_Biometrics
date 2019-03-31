@@ -39,8 +39,10 @@ with torch.no_grad():
         labels = labels.to(device)
         outputs = model(images)
         _, predicted = torch.max(outputs.data, 1)
+
         # print(predicted, labels)
         # print("--------", i, "--------")
+
         total += labels.size(0)
         correct += (predicted == labels).sum().item()
         if i % 20 == 0:

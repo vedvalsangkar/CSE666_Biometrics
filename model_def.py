@@ -6,7 +6,6 @@
 # It follows the following pattern. Note: conv<A>-<B> -> A x A filter with B channels
 # conv3-32 - relu - conv3-32 - relu - maxpool - dropout - conv3-64 - relu - conv3-64 -
 # relu - maxpool - dropout - fc(512) - relu - dropout - softmax
-#
 ##
 
 
