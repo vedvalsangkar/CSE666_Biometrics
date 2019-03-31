@@ -3,7 +3,6 @@
 #
 # @author vedharis
 # Ved Harish Valsangkar
-# Person number: 50290388
 #
 # References used:
 # https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py
@@ -64,6 +63,7 @@ def main():
         for i, (images, labels) in enumerate(train_loader):
 
             # Change variable type to match GPU requirements
+            a = images.size()
             inp = images.to(device)
             lab = labels.to(device)
 
